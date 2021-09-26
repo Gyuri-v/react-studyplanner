@@ -5,13 +5,13 @@
 
 
 /* container */
-.container{ padding: 20px; padding-top: 60px; }
-section{ margin: 20px 0; padding: 30px 20px; background: #fff; border-radius: 20px; box-shadow: 0 0 15px rgba(0,0,0,0.15);  }
-.cmTitle{ margin-bottom: 20px; font-family: 'GmarketSansBold'; font-size: 17px; }
+.container{ padding: 20px 15px; padding-top: 60px; }
+section{ margin: 20px 0; padding: 30px 15px; background: #fff; border-radius: 20px; box-shadow: 0 0 15px rgba(0,0,0,0.1);  }
+.cmTitle{ margin-bottom: 15px; padding-bottom: 15px; border-bottom: 1px solid #ddd; font-family: 'GmarketSansBold'; font-size: 17px; }
 
 .mainSkillList{ text-align: left; }
-.mainSkillList li{ display: inline-block; margin: 0 2px;  }
-.mainSkillList li a{ display: block; padding: 10px 20px; border-radius: 30px; font-size: 13px;  }
+.mainSkillList li{ display: inline-block; margin: 2px;  }
+.mainSkillList li a{ display: block; padding: 10px 15px; border-radius: 30px; font-size: 13px;  }
 
 
 
