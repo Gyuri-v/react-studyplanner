@@ -1,10 +1,17 @@
 /* Header */
 .header{ display: flex; justify-content: space-between; align-items: center; position: fixed; top: 0; left: 0; z-index: 999; width: 100%; height: 60px; padding: 20px; background: #fff; border-bottom: 1px solid #ddd; }
-.header .logo{ font-family: 'GmarketSansBold'; font-size: 18px; }
-.header .utilLink{ margin-left: 15px; font-family: 'GmarketSansMedium'; font-size: 14px; }
+.header .logo{ font-family: 'GmarketSansBold'; font-size: 20px; }
+.header .utilLink{ margin-left: 15px; font-size: 14px; }
 
 
+/* container */
+.container{ padding: 20px; padding-top: 60px; }
+section{ margin: 20px 0; padding: 30px 20px; background: #fff; border-radius: 20px; box-shadow: 0 0 15px rgba(0,0,0,0.15);  }
+.cmTitle{ margin-bottom: 20px; font-family: 'GmarketSansBold'; font-size: 17px; }
 
+.mainSkillList{ text-align: left; }
+.mainSkillList li{ display: inline-block; margin: 0 2px;  }
+.mainSkillList li a{ display: block; padding: 10px 20px; border-radius: 30px; font-size: 13px;  }
 
 
 
