@@ -18,4 +18,10 @@ section{ margin: 20px 0; padding: 30px 15px; background: #fff; border-radius: 20
 .studyList li a .title{ display: inline-block; max-width: calc(100% - 35px); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; } 
 .studyList li a .date{ float: right; font-size: 12px; }
 
-
+.studyTbl{ width: 100%; border-top: 1px solid #ddd; }
+.studyTbl tr{ border-bottom: 1px solid #ddd; }
+.studyTbl th{ padding: 10px; border-right: 1px solid #ddd; font-size: 14px; color: #333; white-space: nowrap; }
+.studyTbl td{ padding: 10px; border-right: 1px solid #ddd; font-size: 13px; color: #666; vertical-align: middle; }
+.studyTbl td.finChk{ text-align: center; }
+.studyTbl th:last-child{ border-right: 0; }
+.studyTbl td:last-child{ border-right: 0; }

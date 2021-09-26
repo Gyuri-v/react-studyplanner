@@ -3,6 +3,7 @@ import "./contents.css"
 import Header from "./component/Header";
 import Main from "./component/Main";
 import Skill from "./component/Skill";
+import Study from "./component/Study";
 
 function App() {
     return ( 
@@ -15,6 +16,9 @@ function App() {
                     </Route>
                     <Route path="/skill/:skill">
                         <Skill />
+                    </Route>
+                    <Route path="/study/:study">
+                        <Study />
                     </Route>
                 </Switch>
             </div>

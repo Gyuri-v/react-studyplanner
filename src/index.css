@@ -83,3 +83,156 @@ table {
 	border-spacing: 0;
 }
 
+
+/***** form tag 기본 스타일 초기화 *****/
+input, textarea, select{ 
+	-webkit-appearance: none;
+	   -moz-appearance: none;
+	   		appearance: none;
+    -webkit-border-radius: 0;
+			border-radius: 0;
+	-webkit-box-shadow: none;
+			box-shadow: none;
+}
+
+/* input 스타일 추가 */
+input[type=email], 
+input[type=password], 
+input[type=text] {
+	display: inline-block;
+	color: #555;
+	vertical-align: middle;
+	border: 1px solid #ccc;
+	border-radius: 0;
+	padding: 0 10px 0 10px;
+	background: 0 0;
+	outline: 0;
+}
+/* IE10 이상에서 input box 에 추가된 지우기 버튼 제거 */
+input::-ms-clear { 
+	display: none; 
+}
+/* input type number 에서 화살표 제거 */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+}
+/* input type number 에서 화살표 제거 - Firefox 에서는 외형을 텍스트필드로 변경해줘야함*/
+input[type=number] {
+       -moz-appearance: textfield;
+}
+
+/*input checkbox 커스텀 */
+input[type="checkbox"] { 
+	position: absolute; 
+	width: 1px; 
+	height: 1px; 
+	padding: 0; 
+	margin: -1px; 
+	overflow: hidden; 
+	clip:rect(0,0,0,0); 
+	border: 0; 
+} 
+input[type="checkbox"] + label { 
+	display: inline-block; 
+	position: relative; 
+    height: 18px;
+	padding-left: 18px; /* 글자와 체크박스 사이의 간격을 변경 */ 
+	cursor: pointer; 
+	-webkit-user-select: none; 
+	-moz-user-select: none; 
+	-ms-user-select: none; 
+} 
+input[type="checkbox"] + label:before { /* 가짜 체크박스 */ 
+	content: '🤍'; 
+	position: absolute; 
+	left: 0; 
+	top: 0; /* 이 값을 변경해서 글자와의 정렬 */ 
+	width: 18px; /* 체크박스의 너비를 지정 */ 
+	height: 18px; /* 체크박스의 높이를 지정 */ 
+	line-height: 18px; /* 세로정렬을 위해 높이값과 일치 */ 
+	text-align: center; 
+	background: #fff; 
+	border: 1px solid transparent; 
+	border-radius : 0; 
+	box-shadow: none; 
+} 
+input[type="checkbox"]:checked + label:before { /* 체크박스를 체크했을때 */ 
+	content: '💙'; 
+	color: #fff; 
+	box-shadow: none; 
+}
+
+
+
+/* input radio 커스텀 */
+input[type="radio"]{ 
+    -webkit-appearance: radio; 
+    appearance: radio; 
+}
+
+input[type="radio"] {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+input[type="radio"] + label {
+    display: inline-block;
+    position: relative;
+    padding-left: 24px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+input[type="radio"] + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    background: transparent;
+    border: 1px solid #cacece;
+    border-radius: 100%;
+    box-shadow: none;
+}
+
+input[type="radio"]:checked + label:after {
+    content: '';
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 12px;
+    height: 12px;
+    background: #ffc727;
+    border-radius: 100%;
+}
+
+
+/*** form tag - select ***/
+select{     
+    margin:0;
+    padding: 5px 30px 5px 10px;
+    box-sizing: border-box;
+    /* background: url('../../images/common/arrow_down_black.png') no-repeat 95% 50% #fff; */
+	color: #555;
+	vertical-align: middle;
+	border: 1px solid #ccc;
+	border-radius: 0;
+	outline: 0;
+}
+/* IE 에서 Select box 화살표 제거 */ 
+select::-ms-expand{ 
+    display:none;
+}
