@@ -45,7 +45,7 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
-time, mark, audio, video, input, textarea {
+time, mark, audio, video, input, textarea, button {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -63,6 +63,11 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+	line-height: 1.2;
+    font-family: 'GmarketSansMedium', sans-serif;
+    font-size: 16px;
+}
+body * {
 	line-height: 1.2;
     font-family: 'GmarketSansMedium', sans-serif;
     font-size: 16px;

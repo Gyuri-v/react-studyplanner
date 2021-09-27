@@ -4,6 +4,7 @@ import Header from "./component/Header";
 import Main from "./component/Main";
 import Skill from "./component/Skill";
 import Study from "./component/Study";
+import CreateSkill from "./component/CreateSkill";
 
 function App() {
     return ( 
@@ -19,6 +20,9 @@ function App() {
                     </Route>
                     <Route path="/study/:study">
                         <Study />
+                    </Route>
+                    <Route path="/create_skill">
+                        <CreateSkill />
                     </Route>
                 </Switch>
             </div>

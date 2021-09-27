@@ -7,7 +7,7 @@ export default function Header(){
                 <Link to="/">🍊Study</Link>
             </h1>
             <div className="util">
-                <Link to="" className="utilLink">➕ Skill</Link>
+                <Link to="/create_skill" className="utilLink">➕ Skill</Link>
                 <Link to="" className="utilLink">➕ Study</Link>
             </div>
         </header>
