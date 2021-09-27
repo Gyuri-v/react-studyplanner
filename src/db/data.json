@@ -1,0 +1,82 @@
+{
+    "skills": [{
+            "id": 1,
+            "skill": "Html&Css",
+            "bgColor": "#fff6dd"
+        },
+        {
+            "id": 2,
+            "skill": "Javascript",
+            "bgColor": "#ecf4e3"
+        },
+        {
+            "id": 3,
+            "skill": "React",
+            "bgColor": "#ddfaff"
+        }
+    ],
+    "studies": [
+        {
+            "id": 1,
+            "skill": "React",
+            "bdColor": "#7eecff",
+            "study": "😈 코딩앙마 - 리액트",
+            "lately": "3일전",
+            "isDone": false
+        },
+        {
+            "id": 2,
+            "skill": "React",
+            "bdColor": "#7eecff",
+            "study": "🍏 코딩애플 - 리액트",
+            "lately": "5일전",
+            "isDone": false
+        },
+        {
+            "id": 3,
+            "skill": "Javascript",
+            "bdColor": "#bce58e",
+            "study": "😈 코딩앙마 - JS",
+            "lately": "14일전",
+            "isDone": false
+        }
+    ],
+    "lectures": [
+        {
+            "id": 1,
+            "skill": "React",
+            "study": "😈 코딩앙마 - 리액트",
+            "lecture": "#1 강의 소개 - 초보자를 위한 리액트 강좌",
+            "lately": "3일전",
+            "isDone": true,
+            "findate": "2021.09.27"
+        },
+        {
+            "id": 2,
+            "skill": "React",
+            "study": "😈 코딩앙마 - 리액트",
+            "lecture": "#2 설치 (create-react-app)",
+            "lately": "3일전",
+            "isDone": false,
+            "findate": ""
+        },
+        {
+            "id": 3,
+            "skill": "Javascript",
+            "study": "😈 코딩앙마 - JS",
+            "lecture": "자바스크립트 기초강좌 #1 - 변수",
+            "lately": "5일전",
+            "isDone": false,
+            "findate": ""
+        },
+        {
+            "id": 4,
+            "skill": "React",
+            "study": "🍏 코딩애플 - 리액트",
+            "lecture": "React 기초 0강 : 리액트왜 쓰는지 알려줌 (+ 수강시 필요 사전지식)",
+            "lately": "9일전",
+            "isDone": true,
+            "findate": "2021.09.15"
+        }
+    ]
+}
