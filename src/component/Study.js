@@ -1,16 +1,25 @@
-import { Link } from "react-router-dom";
 import { useParams } from "react-router";
-import dummy from "../db/data.json"
+import { useEffect, useState } from "react";
 
 export default function Study(){
 
-    const studyName = useParams().study;
-    const studyList = dummy.lectures.filter(lecture => lecture.study === studyName );
+    const study = useParams().study;
+    const [studies, setStudies] = useState([]);
+
+    useEffect(() => {
+        fetch(`http://localhost:3001/lectures?study=${study}`)
+        .then(res => {
+            return res.json()
+        })
+        .then(data => {
+            setStudies(data);
+        })
+    });
 
     return (
         <main className="container study">
             <section>
-                <h3 className="cmTitle">{ studyName }</h3>
+                <h3 className="cmTitle">{ study }</h3>
                 <table className="studyTbl">
                     <thead> 
                         <tr>
@@ -20,7 +29,7 @@ export default function Study(){
                         </tr>
                     </thead>
                     <tbody>
-                        {studyList.map(lecture => (
+                        {studies.map(lecture => (
                             <tr key={lecture.id} className={lecture.isDone ? 'off' : ''}>
                                 <td className="subject">{lecture.lecture}</td>
                                 <td className="finChk">

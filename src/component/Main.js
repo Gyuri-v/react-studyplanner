@@ -23,7 +23,7 @@ export default function Main(){
             <section className="mainLately">
                 <h3 className="cmTitle"> { mainLatelyTitle } </h3>
                 <ul className="studyList">
-                {dummy.studies.map(study => (
+                    {dummy.studies.map(study => (
                         <li key={study.id}>
                             <Link to={`/study/${study.study}`} style={{borderColor: study.bdColor }}> 
                                 <span className="title">{study.study}</span> 

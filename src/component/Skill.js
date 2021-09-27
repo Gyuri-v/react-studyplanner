@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import { useParams } from "react-router";
-//import dummy from "../db/data.json"
 import { useEffect, useState } from "react";
 
 export default function Skill(){
@@ -16,16 +15,14 @@ export default function Skill(){
         .then(data => {
             setSkills(data);
         })
-    })
-
-    console.log(skills);
+    });
 
     return (
         <main className="container skill">
             <section>
                 <h3 className="cmTitle">📚 {skill} Study </h3>
                 <ul className="studyList">
-                {skills.map(study => (
+                    {skills.map(study => (
                         <li key={study.id}>
                             <Link to={`/study/${study.study}`} style={{borderColor: study.bdColor }}> 
                                 <span className="title">{study.study}</span> 
