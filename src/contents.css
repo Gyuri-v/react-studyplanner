@@ -25,3 +25,4 @@ section{ margin: 20px 0; padding: 30px 15px; background: #fff; border-radius: 20
 .studyTbl td.finChk{ text-align: center; }
 .studyTbl th:last-child{ border-right: 0; }
 .studyTbl td:last-child{ border-right: 0; }
+.studyTbl tr.off{ background: #f2f2f2; }

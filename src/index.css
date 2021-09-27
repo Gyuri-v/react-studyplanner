@@ -154,7 +154,7 @@ input[type="checkbox"] + label:before { /* 가짜 체크박스 */
 	height: 18px; /* 체크박스의 높이를 지정 */ 
 	line-height: 18px; /* 세로정렬을 위해 높이값과 일치 */ 
 	text-align: center; 
-	background: #fff; 
+	background: transparent; 
 	border: 1px solid transparent; 
 	border-radius : 0; 
 	box-shadow: none; 

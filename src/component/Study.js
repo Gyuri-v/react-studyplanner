@@ -5,6 +5,7 @@ import dummy from "../db/data.json"
 export default function Study(){
 
     const studyName = useParams().study;
+    const studyList = dummy.lectures.filter(lecture => lecture.study === studyName );
 
     return (
         <main className="container study">
@@ -19,8 +20,8 @@ export default function Study(){
                         </tr>
                     </thead>
                     <tbody>
-                        {dummy.lectures.map(lecture => (
-                            <tr key={lecture.id}>
+                        {studyList.map(lecture => (
+                            <tr key={lecture.id} className={lecture.isDone ? 'off' : ''}>
                                 <td className="subject">{lecture.lecture}</td>
                                 <td className="finChk">
                                     <input type="checkbox" checked={lecture.isDone} id="finChk1" />
