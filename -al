@@ -1,0 +1,77 @@
+[33mcommit 3c01f7f8b858d81d4bbf044cb71b604d28ffbbb0[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: gyuri <fnffkdll@naver.com>
+Date:   Tue Sep 28 00:01:07 2021 +0900
+
+    study page - useEffect, fetch 적용
+
+[33mcommit e4d529ae9995c5414bd216b239df153f457120fa[m
+Author: gyuri <fnffkdll@naver.com>
+Date:   Mon Sep 27 23:52:18 2021 +0900
+
+    skill page - useEffect, fetch 적용
+
+[33mcommit 90b5b2d13f6fa560e2fd1876624666250e96a990[m
+Author: gyuri <fnffkdll@naver.com>
+Date:   Mon Sep 27 23:20:39 2021 +0900
+
+    create skill page - ui 생성
+
+[33mcommit 5c2a7c6c4a73fb7468a5f957817acc8060a7fb8f[m
+Author: gyuri <fnffkdll@naver.com>
+Date:   Mon Sep 27 22:51:34 2021 +0900
+
+    study page - fillter 연결
+
+[33mcommit e016307e8bdfdb01ffa0786ce2ab53178e06d48b[m
+Author: gyuri <fnffkdll@naver.com>
+Date:   Mon Sep 27 22:42:18 2021 +0900
+
+    study page - dummy 연결
+
+[33mcommit 8561a058e66e96c37eb05715224bfb8891b3f1a1[m
+Author: gyuri <fnffkdll@naver.com>
+Date:   Mon Sep 27 02:31:12 2021 +0900
+
+    study page - ui생성
+
+[33mcommit e11f3f1d486136c912ea81a7977a4e2c461a69bd[m
+Author: gyuri <fnffkdll@naver.com>
+Date:   Mon Sep 27 02:08:01 2021 +0900
+
+    skill page 생성 (dummy, fillter, useParams 적용)
+
+[33mcommit 6553e255beb19f866ee64123671b9b405d25f78e[m
+Author: gyuri <fnffkdll@naver.com>
+Date:   Mon Sep 27 01:46:53 2021 +0900
+
+    main - 최근 study ui & dummy 생성
+
+[33mcommit a8b45bcd45866ee39292ff971fba8f02856be03d[m
+Author: gyuri <fnffkdll@naver.com>
+Date:   Mon Sep 27 01:24:35 2021 +0900
+
+    main - dummy data 구현
+
+[33mcommit 16a8acaa8dadd7a35dc79b0b3458c79158cdb0d3[m
+Author: gyuri <fnffkdll@naver.com>
+Date:   Mon Sep 27 01:04:59 2021 +0900
+
+    main - ui추가
+
+[33mcommit 61262dc81a30fa348c7c78fbb92a1f29846fc720[m
+Author: gyuri <fnffkdll@naver.com>
+Date:   Sun Sep 26 23:32:03 2021 +0900
+
+    header 추가
+
+[33mcommit 6b0b5d5567e29758f871ab452d053507d1c134c4[m
+Author: gyuri <fnffkdll@naver.com>
+Date:   Sun Sep 26 23:29:29 2021 +0900
+
+    header 추가
+
+[33mcommit ad80564e873fd072e9d6ad3d3d535cae4a5286df[m
+Author: gyuri <fnffkdll@naver.com>
+Date:   Sun Sep 26 22:52:39 2021 +0900
+
+    react - study planner 만들어보기 - 시작
