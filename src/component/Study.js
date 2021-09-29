@@ -1,6 +1,7 @@
 import { useParams } from "react-router";
 import { useEffect, useState } from "react";
 import useFetch from "../hooks/useFetch";
+import Lecture from "./Lecture";
 
 export default function Study(){
 
@@ -21,14 +22,7 @@ export default function Study(){
                     </thead>
                     <tbody>
                         {studies.map(lecture => (
-                            <tr key={lecture.id} className={lecture.isDone ? 'off' : ''}>
-                                <td className="subject">{lecture.lecture}</td>
-                                <td className="finChk">
-                                    <input type="checkbox" checked={lecture.isDone} id="finChk1" />
-                                    <label htmlFor="finChk1"></label>
-                                </td>
-                                <td className="finDate">{lecture.findate}</td>
-                            </tr>
+                            <Lecture lecture={lecture} key={lecture.id} />
                         ))}
                     </tbody>
                 </table>
