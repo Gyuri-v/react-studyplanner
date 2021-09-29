@@ -1,20 +1,11 @@
 import { useParams } from "react-router";
 import { useEffect, useState } from "react";
+import useFetch from "../hooks/useFetch";
 
 export default function Study(){
 
     const study = useParams().study;
-    const [studies, setStudies] = useState([]);
-
-    useEffect(() => {
-        fetch(`http://localhost:3001/lectures?study=${study}`)
-        .then(res => {
-            return res.json()
-        })
-        .then(data => {
-            setStudies(data);
-        })
-    });
+    const studies = useFetch(`http://localhost:3001/lectures?study=${study}`);
 
     return (
         <main className="container study">

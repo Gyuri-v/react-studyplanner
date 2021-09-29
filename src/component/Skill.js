@@ -1,21 +1,12 @@
 import { Link } from "react-router-dom";
 import { useParams } from "react-router";
 import { useEffect, useState } from "react";
+import useFetch from "../hooks/useFetch";
 
 export default function Skill(){
 
     const skill = useParams().skill;
-    const [skills, setSkills] = useState([]);
-
-    useEffect(() => {
-        fetch(`http://localhost:3001/studies?skill=${skill}`)
-        .then(res => {
-            return res.json()
-        })
-        .then(data => {
-            setSkills(data);
-        })
-    });
+    const skills = useFetch(`http://localhost:3001/studies?skill=${skill}`);
 
     return (
         <main className="container skill">
