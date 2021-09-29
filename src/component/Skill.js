@@ -17,7 +17,7 @@ export default function Skill(){
                         <li key={study.id}>
                             <Link to={`/study/${study.study}`} style={{borderColor: study.bdColor }}> 
                                 <span className="title">{study.study}</span> 
-                                <span className="date">{study.lately}</span> 
+                                {/* <span className="date">{study.lately}</span>  */}
                             </Link>
                         </li>
                     ))}

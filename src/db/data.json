@@ -14,31 +14,38 @@
       "id": 3,
       "skill": "React",
       "bgColor": "#ddfaff"
+    },
+    {
+      "skill": "Vue",
+      "bgColor": "#b2caff",
+      "id": 4
+    },
+    {
+      "skill": "Sass",
+      "bgColor": "#ffa3b4",
+      "id": 5
     }
   ],
   "studies": [
     {
       "id": 1,
       "skill": "React",
-      "bdColor": "#7eecff",
       "study": "😈 코딩앙마 - 리액트",
-      "lately": "3일전",
+      "bdColor": "#7eecff",
       "isDone": false
     },
     {
       "id": 2,
       "skill": "React",
-      "bdColor": "#7eecff",
       "study": "🍏 코딩애플 - 리액트",
-      "lately": "5일전",
+      "bdColor": "#7eecff",
       "isDone": false
     },
     {
       "id": 3,
       "skill": "Javascript",
-      "bdColor": "#bce58e",
       "study": "😈 코딩앙마 - JS",
-      "lately": "14일전",
+      "bdColor": "#bce58e",
       "isDone": false
     }
   ],
