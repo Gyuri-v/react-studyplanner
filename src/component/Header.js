@@ -8,7 +8,7 @@ export default function Header(){
             </h1>
             <div className="util">
                 <Link to="/create_skill" className="utilLink">➕ Skill</Link>
-                <Link to="" className="utilLink">➕ Study</Link>
+                <Link to="/create_study" className="utilLink">➕ Study</Link>
             </div>
         </header>
     );

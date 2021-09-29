@@ -47,6 +47,13 @@
       "study": "😈 코딩앙마 - JS",
       "bdColor": "#bce58e",
       "isDone": false
+    },
+    {
+      "skill": "Javascript",
+      "study": "🍏 코딩애플 - 진짜 웹개발로 배우는 실용 자바스크립트",
+      "bgColor": "#bce58e",
+      "isDone": false,
+      "id": 4
     }
   ],
   "lectures": [
