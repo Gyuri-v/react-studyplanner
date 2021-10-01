@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
-import dummy from "../db/data.json"
+import useFetch from "../hooks/useFetch";
 
 export default function SkillList(){
+    const skills = useFetch('http://localhost:3001/skills');
     return(
         <ul className="skillList">
-            {dummy.skills.map(skill => (
+            {skills.map(skill => (
                 <li key={skill.id}>
                     <Link to={`/skill/${skill.skill}`} style={{background: skill.bgColor }}> 
                         {skill.skill} 
