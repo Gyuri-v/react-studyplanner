@@ -1,9 +1,13 @@
 import SkillList from "../component/SkillList";
-import StudyList from "../component/StudyList";
+import useFetch from "../hooks/useFetch";
+import { Link } from "react-router-dom";
+// import StudyList from "../component/StudyList";
 
 export default function Main(){
     const mainSkillTitle = "🤸‍♀️ Let's go Study !";
     const mainLatelyTitle = "🤔 최근 Study";
+
+    const studies = useFetch(`http://localhost:3001/studies`);
 
     return (
         <main className="container main">
@@ -13,7 +17,17 @@ export default function Main(){
             </section>
             <section className="mainLately">
                 <h3 className="cmTitle"> { mainLatelyTitle } </h3>
-                <StudyList />
+                {/* <StudyList /> */}
+                <ul className="studyList">
+                    {studies.map(study => (
+                        <li key={study.id}>
+                            <Link to={`/study/${study.study}`} style={{borderColor: study.bdColor }}> 
+                                <span className="title">{study.study}</span> 
+                                {/* <span className="date">{study.lately}</span>  */}
+                            </Link>
+                        </li>
+                    ))}
+                </ul>
             </section>
         </main>
     );
