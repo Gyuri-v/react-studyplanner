@@ -28,6 +28,10 @@ section{ margin: 20px 0; padding: 30px 15px; background: #fff; border-radius: 20
 .studyTbl td:last-child{ border-right: 0; }
 .studyTbl tr.off{ background: #f2f2f2; }
 
+.cmTitle{ overflow: hidden; margin-bottom: 15px; padding-bottom: 15px; border-bottom: 1px solid #ddd; font-family: 'GmarketSansBold'; font-size: 17px; }
+.btnDel{ display: block; float: right; padding: 8px 10px 5px; background: #ffac78; border-radius: 5px; font-size: 13px; font-weight: 400; color: #fff; text-align: center; }
+
+
 
 /*** 폼태그 ***/
 /* 폼태그 기본 */

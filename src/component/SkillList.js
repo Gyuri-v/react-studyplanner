@@ -7,7 +7,7 @@ export default function SkillList(){
         <ul className="skillList">
             {skills.map(skill => (
                 <li key={skill.id}>
-                    <Link to={`/skill/${skill.skill}`} style={{background: skill.bgColor }}> 
+                    <Link to={{pathname: `/skill/${skill.skill}`, state: { id: skill.id }}} style={{background: skill.bgColor }}>
                         {skill.skill} 
                     </Link>
                 </li>
