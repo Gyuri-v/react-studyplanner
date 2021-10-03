@@ -30,7 +30,7 @@ export default function CreateSkill(){
     }
 
     return(
-        <main className="container createSkil">
+        <main className="container createSkill">
             <section>
                 <h3 className="cmTitle">➕ Skill 추가</h3>
                 <div className="skillListWrap">

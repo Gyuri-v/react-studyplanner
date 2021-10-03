@@ -2,6 +2,7 @@ import { useHistory, useParams } from "react-router";
 import useFetch from "../hooks/useFetch";
 import Lecture from "./Lecture";
 import dummy from "../db/data.json";
+import { Link } from "react-router-dom";
 
 export default function Study(){
 
@@ -47,6 +48,7 @@ export default function Study(){
                         ))}
                     </tbody>
                 </table>
+                <Link to="/create_lecture" className="btnAddLecture">강의 추가</Link>
             </section>
         </main>
     );

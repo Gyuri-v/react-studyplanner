@@ -6,7 +6,7 @@
 
 /* container */
 .container{ padding: 20px 15px; padding-top: 60px; }
-section{ margin: 20px 0; padding: 30px 15px; background: #fff; border-radius: 20px; box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);  }
+section{ overflow: hidden; margin: 20px 0; padding: 30px 15px; background: #fff; border-radius: 20px; box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);  }
 .cmTitle{ margin-bottom: 15px; padding-bottom: 15px; border-bottom: 1px solid #ddd; font-family: 'GmarketSansBold'; font-size: 17px; }
 
 .skillListWrap{ margin-bottom: 40px; }
@@ -30,7 +30,7 @@ section{ margin: 20px 0; padding: 30px 15px; background: #fff; border-radius: 20
 
 .cmTitle{ overflow: hidden; margin-bottom: 15px; padding-bottom: 15px; border-bottom: 1px solid #ddd; font-family: 'GmarketSansBold'; font-size: 17px; }
 .btnDel{ display: block; float: right; padding: 8px 10px 5px; background: #ffac78; border-radius: 5px; font-size: 13px; font-weight: 400; color: #fff; text-align: center; }
-
+.btnAddLecture{ display: block; float: right; margin-top: 10px; padding: 8px 10px 5px; background: #ff944d; border-radius: 5px; font-size: 13px; font-weight: 400; color: #fff; text-align: center; }
 
 
 /*** 폼태그 ***/

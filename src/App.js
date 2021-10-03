@@ -6,6 +6,7 @@ import Skill from "./component/Skill";
 import Study from "./component/Study";
 import CreateSkill from "./component/CreateSkill";
 import CreateStudy from "./component/CreateStudy";
+import CreateLecture from "./component/CreateLecture";
 
 function App() {
     return ( 
@@ -27,6 +28,9 @@ function App() {
                     </Route>
                     <Route path="/create_study">
                         <CreateStudy />
+                    </Route>
+                    <Route path="/create_lecture">
+                        <CreateLecture />
                     </Route>
                 </Switch>
             </div>
