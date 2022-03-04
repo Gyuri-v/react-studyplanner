@@ -19,11 +19,6 @@
       "skill": "Vue",
       "bgColor": "#b2caff",
       "id": 4
-    },
-    {
-      "skill": "Sass",
-      "bgColor": "#ffa3b4",
-      "id": 5
     }
   ],
   "studies": [
@@ -54,6 +49,13 @@
       "bgColor": "#bce58e",
       "isDone": false,
       "id": 4
+    },
+    {
+      "skill": "add",
+      "study": "12341",
+      "bgColor": "#000000",
+      "isDone": false,
+      "id": 5
     }
   ],
   "lectures": [
@@ -70,7 +72,7 @@
       "skill": "React",
       "study": "😈 코딩앙마 - 리액트",
       "lecture": "#2 설치 (create-react-app)",
-      "isDone": true,
+      "isDone": false,
       "findate": ""
     },
     {
@@ -78,7 +80,7 @@
       "skill": "Javascript",
       "study": "😈 코딩앙마 - JS",
       "lecture": "자바스크립트 기초강좌 #1 - 변수",
-      "isDone": false,
+      "isDone": true,
       "findate": ""
     },
     {
@@ -96,6 +98,14 @@
       "isDone": false,
       "finDate": "",
       "id": 5
+    },
+    {
+      "skill": "React",
+      "study": "😈 코딩앙마 - 리액트",
+      "lecture": "test",
+      "isDone": false,
+      "finDate": "",
+      "id": 6
     }
   ]
 }
