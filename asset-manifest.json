@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-studyplanner/static/css/main.7e8d94b2.chunk.css",
+    "main.js": "/react-studyplanner/static/js/main.d318eef0.chunk.js",
+    "main.js.map": "/react-studyplanner/static/js/main.d318eef0.chunk.js.map",
+    "runtime-main.js": "/react-studyplanner/static/js/runtime-main.ac40858f.js",
+    "runtime-main.js.map": "/react-studyplanner/static/js/runtime-main.ac40858f.js.map",
+    "static/js/2.7694d886.chunk.js": "/react-studyplanner/static/js/2.7694d886.chunk.js",
+    "static/js/2.7694d886.chunk.js.map": "/react-studyplanner/static/js/2.7694d886.chunk.js.map",
+    "static/js/3.ad83beb3.chunk.js": "/react-studyplanner/static/js/3.ad83beb3.chunk.js",
+    "static/js/3.ad83beb3.chunk.js.map": "/react-studyplanner/static/js/3.ad83beb3.chunk.js.map",
+    "index.html": "/react-studyplanner/index.html",
+    "static/css/main.7e8d94b2.chunk.css.map": "/react-studyplanner/static/css/main.7e8d94b2.chunk.css.map",
+    "static/js/2.7694d886.chunk.js.LICENSE.txt": "/react-studyplanner/static/js/2.7694d886.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ac40858f.js",
+    "static/js/2.7694d886.chunk.js",
+    "static/css/main.7e8d94b2.chunk.css",
+    "static/js/main.d318eef0.chunk.js"
+  ]
+}
