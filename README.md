@@ -7,6 +7,7 @@
 (Readme 도 우선 공부 기록용입니다. 📚)
 
 ### ✔ 스케치 (이미지 첨부예정)
+![study-studyplanner](https://user-images.githubusercontent.com/52877639/159754657-6b4038ca-6485-463b-8952-ddaf72754394.gif)
 
 
 ### ✔ LOG
